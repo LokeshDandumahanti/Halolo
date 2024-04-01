@@ -134,5 +134,5 @@ def inventory_management(file_path, order_file_path, image_path):
 # Example usage
 file_path = "Inventory.csv"
 order_file_path = "Orders.csv"
-image_path = "jiven.jpg"
+image_path = "jiven1.jpg"
 inventory_management(file_path, order_file_path, image_path)
