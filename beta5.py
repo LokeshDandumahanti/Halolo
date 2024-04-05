@@ -14,7 +14,6 @@ users = {
 def sign_in():
     # Define the CSS styles for the app
     st.markdown(
-       st.markdown(
     """
     <style>
     body {
