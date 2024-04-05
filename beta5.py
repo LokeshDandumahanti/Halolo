@@ -14,30 +14,31 @@ users = {
 def sign_in():
     # Define the CSS styles for the app
     st.markdown(
-        """
-        <style>
-        body {
-            color: white;
-            background-color: #f4a261;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            text-align: center;
-            font-size: 36px;
-            margin-bottom: 0;
-        }
-        h3 {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            text-align: center;
-            font-size: 20px;
-            margin-top: -10px;
-        }
-        .stTextInput>div>div>input {
-            color: black !important;
-        }
-        </style>
-        """,
+       st.markdown(
+    """
+    <style>
+    body {
+        color: white;
+        background-color: orange;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .stTextInput>div>div>input {
+        color: white !important;
+    }
+    </style>
+    """,
         unsafe_allow_html=True
     )
 
