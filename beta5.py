@@ -13,12 +13,12 @@ users = {
 
 def sign_in():
     # Define the CSS styles for the app
-    st.markdown(
+   st.markdown(
     """
     <style>
     body {
-        color: white;
-        background-color: orange;
+        color: white !important;
+        background-color: orange !important;
         font-family: Arial, sans-serif;
     }
     h1 {
@@ -37,7 +37,8 @@ def sign_in():
         color: white !important;
     }
     </style>
-    """,
+    """
+,
         unsafe_allow_html=True
     )
 
